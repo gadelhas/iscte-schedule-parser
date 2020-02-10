@@ -1,0 +1,19 @@
+{
+  "name": "iscte-schedule-parser",
+  "version": "1.0.0",
+  "description": "Parses the schedule table from ISCTE Fénix and exports it to a iCalendar File.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ics": "^2.18.0"
+  },
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.4.1",
+    "jsdom": "^16.1.0"
+  }
+}
